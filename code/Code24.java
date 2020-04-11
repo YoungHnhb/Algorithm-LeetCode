@@ -1,5 +1,3 @@
-package lc;
-
 public class Code24 {
 
     public static void main(String[] args) {
