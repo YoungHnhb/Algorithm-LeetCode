@@ -44,6 +44,7 @@ public class Code15 {
 
     public static void main(String[] args) {
 
+        System.out.println(new Code15().threeSum(new int[]{-1,0,1,2,-1,-4}));
     }
 
     public List<List<Integer>> threeSum(int[] nums) {
@@ -73,7 +74,7 @@ public class Code15 {
                         right--;
                     }
                     left++;
-                    right++;
+                    right--;
                 } else if (sum < 0) {
                     left++;
                 } else {
